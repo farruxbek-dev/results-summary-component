@@ -1,0 +1,142 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 700px;
+  height: 490px;
+  border-radius: 32px;
+  background-color: white;
+  box-shadow: 14px 14px 10px rgb(248, 248, 248);
+}
+#left {
+  background: linear-gradient(rgb(104, 66, 255), rgb(49,41,238));
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 60px;
+}
+#your-result {
+  font-size: 1.4375rem;
+  font-weight: 700;
+  color: rgb(196,184,255);
+  margin-bottom: 36px;
+}
+#round {
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(76,35,202), rgba(255, 255, 255, 0));
+  margin-bottom: 20px;
+}
+#score {
+  font-size: 4.25rem;
+  font-weight: bold;
+  color: white;
+}
+#max-score {
+  color: rgb(133,121,255);
+  font-weight: 600;
+  font-size: 1.0625rem;
+}
+#great {
+  font-size: 1.875rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#info {
+  text-align: center;
+  font-size: 1.0625rem;
+  color: lightgray;
+}
+#right {
+  background-color: white;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+  padding: 40px 36px;
+}
+#summary {
+  font-size: 1.4375rem;
+  font-weight: 700;
+  color: rgb(52,57,71);
+  margin-bottom: 20px;
+}
+.summaries {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.sum-name-icon {
+  display: flex;
+  align-items: center;
+}
+.sum-name {
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 14px;
+}
+.percentage {
+  font-size: 17px;
+}
+.per {
+  font-weight: 700;
+  color: black;
+}
+.max-per {
+  font-weight: 600;
+  color: gray;
+}
+#sum1 {
+  background-color: rgb(255,245,244);
+  color: rgb(255,85,85);
+}
+#sum2 {
+  background-color: rgb(255,251,243);
+  color: rgb(255,178,30);
+}
+#sum3 {
+  background-color: rgb(244,249,252);
+  color: rgb(0,187,143);
+}
+#sum4 {
+  background-color: rgb(240,243,252);
+  color: rgb(17,37,214);
+}
+#button {
+  font-family: HankenGrotesk;
+  font-size: 17px;
+  font-weight: 600;
+  width: 276px;
+  height: 52px;
+  margin-top: 24px;
+  border-radius: 24px;
+  border: none;
+  background-color: rgb(47,60,92);
+  color: white;
+  cursor: pointer;
+}
+#button:hover {
+  background: linear-gradient(rgb(104, 66, 255), rgb(49,41,238));
+}
+
+@media (max-width: 700px) {
+  main {
+    grid-template-columns: 1fr;
+    height: 100vh;
+    width: 375px;
+    justify-content: center;
+    box-shadow: 0 0 0 0;
+  }
+  #left {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}

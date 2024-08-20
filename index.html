@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/main.css">
+  
+  <title>Results summary component</title>
+</head>
+<body>
+  <main>
+    <div id="left">
+      <p id="your-result">Your Result</p>
+      <div id="round">
+        <span id="score">76</span>
+        <span id="max-score">of 100</span>
+      </div>
+      <p id="great">Great</p>
+      <p id="info">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div id="right">
+      <p id="summary">Summary</p>
+      <div class="summaries" id="sum1">
+        <div class="sum-name-icon">
+         <img src="assets/images/icon-reaction.svg" alt="icon">
+          <span class="sum-name">Reaction</span> 
+        </div>
+        <span class="percentage"><span class="per">80</span><span class="max-per"> / 100</span></span>
+      </div>
+      <div class="summaries" id="sum2">
+        <div class="sum-name-icon">
+         <img src="assets/images/icon-memory.svg" alt="icon">
+          <span class="sum-name">Memory</span> 
+        </div>
+        <span class="percentage"><span class="per">92</span><span class="max-per"> / 100</span></span>
+      </div>
+      <div class="summaries" id="sum3">
+        <div class="sum-name-icon">
+         <img src="assets/images/icon-verbal.svg" alt="icon">
+          <span class="sum-name">Verbal</span> 
+        </div>
+        <span class="percentage"><span class="per">61</span><span class="max-per"> / 100</span></span>
+      </div>
+      <div class="summaries" id="sum4">
+        <div class="sum-name-icon">
+         <img src="assets/images/icon-visual.svg" alt="icon">
+          <span class="sum-name">Visual</span> 
+        </div>
+        <span class="percentage"><span class="per">72</span><span class="max-per"> / 100</span></span>
+      </div>
+      <button id="button">Continue</button>
+    </div>
+  </main>
+  <!--
+    Your Result
+    76
+    of 100
+
+    Great
+    You scored higher than 65% of the people who have taken these tests.
+    
+    Summary
+
+    Reaction
+    80 / 100
+
+    Memory
+    92 / 100
+
+    Verbal
+    61 / 100
+
+    Visual
+    72 / 100
+
+    Continue
+  -->
+</body>
+</html>
